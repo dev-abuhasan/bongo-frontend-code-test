@@ -53,3 +53,36 @@
 
 </html>
 ```
+#### **`./videoViewer/pseudocode.txt`**
+```js
+    /** if we set this boolean value to false all controls are going to disabled. */
+    if (videoWorks) {
+        video.controls = false or true;
+    }
+
+
+
+    /** just toggling the button, for play or pause the video. */
+    const togglePlay = () => {
+        if (video.paused || video.ended) {
+            # make playbackRate to 1.00
+            # play the video 
+        } else {
+            # make playbackRate to 1.00
+            # pause the video 
+        }
+    }
+
+
+
+    /** Video Forward & Rewind. */
+    const videoForward = (e) => {
+        # get current time 
+        # forward +5sec by click
+    }
+    const videoRewind = (e) => {
+        # get current time 
+        # rewind -5sec by click
+    }
+
+```
