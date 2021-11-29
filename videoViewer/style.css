@@ -1,0 +1,21 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#video{
+    margin: 50px auto 15px auto;
+}
+.btnGrp{
+    margin: 0 auto;
+}
+
+.commonBtn{
+    width: 90px;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    text-shadow: 0 0 3px #000;
+    background: rgb(16, 47, 223);
+}
