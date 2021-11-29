@@ -1,1 +1,6 @@
-# bongo-frontend-code-test
+# Bongo Frontend Code Test
+
+
+### Details
+    #### **`index.tx`**
+    
